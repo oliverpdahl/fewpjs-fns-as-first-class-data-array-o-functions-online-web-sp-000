@@ -16,3 +16,5 @@ function walkHome(a, b) {
 function unleashDog(a, b) {
   return `Unleash ${a} the ${b}`
 }
+
+const routine = [wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog]
