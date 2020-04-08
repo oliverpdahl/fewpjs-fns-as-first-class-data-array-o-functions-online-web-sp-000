@@ -24,5 +24,5 @@ function exerciseDog(a,b) {
   for(let i = 0; i < routine.length; i++) {
     successMessages.push(routine[i](a,b));
   }
-  successMessages
+  return successMessages
 }
