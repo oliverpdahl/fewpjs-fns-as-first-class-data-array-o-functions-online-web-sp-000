@@ -18,3 +18,10 @@ function unleashDog(a, b) {
 }
 
 const routine = [wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog]
+
+function exerciseDog(a,b) {
+  let successMessages = [];
+  for(let i = 0; i < routine.length; i++) {
+    successMessages.push(routine[i](a,b))
+  }
+}
